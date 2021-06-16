@@ -1,0 +1,46 @@
+.ReactCollapse--collapse{
+   /* position: absolute;*/
+   /* z-index: 1;*/
+    display: grid;
+    top: 4px;
+    left: 37%;
+}
+.all_calendar{
+    z-index: 1;
+    /*position: absolute;
+    top: 4px;
+    left: 30%;*/
+}
+.config{
+    /*position: absolute;
+    left: 363px;*/
+
+}
+.dateBoxes{    
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 352px;
+    position: absolute;
+    height: 60px;
+}
+.dateBox{
+    z-index: 1;
+    background: orange;
+    width: 160px;
+    height: 35px;
+    margin-top: 14px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 0px;
+}
+#startDate{
+    margin-left: 10px;   
+}
+#endDate{
+    margin-left: 5px;
+}
+.config{
+    position: absolute;
+    left: 618px;
+}

@@ -1,0 +1,49 @@
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /*grid-template-columns: 100px 100px 100px;*/
+    background-color: #fff;
+    color: #444;
+    height: calc(100% - 101px);
+    padding: 0px 20px 0px 20px;
+}
+
+.box {
+    border-radius: 5px;
+    padding: 5px 0px 0px 5px;
+    font-size: 150%;
+    border: solid black;
+}
+
+.a { 
+    grid-column: 2;
+    grid-row: 2;
+}
+.b {
+    grid-column: 3;
+    grid-row: 1;
+}
+.c {
+    grid-column: 2;
+    grid-row: 1;
+}
+.d {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.e {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.titulo_charts{
+    margin: 0px;
+    font-size: 20px;
+}
+.rv-xy-plot__series--label-text{
+    font-size: 15px;
+}
